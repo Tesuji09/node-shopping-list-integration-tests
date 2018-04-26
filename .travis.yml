@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: hB/QiK8e7iMgTirv3VOwjl9P7+m/QTyENMQQfexw+s6TOcRfZ+1I72/85ptmAUT3eXlNZX27giHojeRqSZmRFRsIkelQeU2gD32k7LKecm7Esg11zNI36BfclTsTHpaWwf+7UP3cmt5YV1tEU69EGTaj6j4tHIcCZx6GTi8xG/+01geyzBn5h3mnUkarmXUqjJO9BWo8JjWmiI8kxghJwhgk1HL2J3m3XDqZClTIqzKveo+z5dSvUEhLiyQxHPzhStFBgl7P3iM50N4QEbF8ZFeM/riT+h7q/Teu4Kp1A0S5q8biq+mYbrPeeuS8uIWSMRlmM1b3gzei5nuSpx8/UeRwTfFnhxHV4i5LiZFrU4NRtD0jyp3z4lj1VP6g3opMPqVMxlDB3yUYItE4wLJR40hzWNi9mVRreGzSuhAkq8+q0yVsmaWzgcYpVmdOr0U0Lk/qs1ttwlU/fiqbbfF8/EnBh5I7dvr1Mkv5qHEAD51iTCoysTjgTsskZdAOuYZ2da/gwE2Bch4mkcmx0YwcDYc3DnOB7cPDHR3zao8rXO3guFyNlkLaAd17+YFEvp3wQHrMMqYUX16rDpWiftsiDVMpoMMcXV1rwdCwXViSSsXXkNtWxXiP68ek4t/bivxrsqV4fa6j+MHFdOanaspg8J/2Yyw13m4Vhtr8/jSi8Ug=
+  app: still-tundra-68166
+  on:
+    repo: Tesuji09/node-shopping-list-integration-tests
